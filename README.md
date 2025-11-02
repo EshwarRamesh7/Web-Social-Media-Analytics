@@ -68,3 +68,15 @@ The dataset contains ~10,500 Amazon mobile reviews with metadata, including:
 [Capstone Tableau](https://drive.google.com/file/d/19B3_Dt0gfyAI5eQikbnOdTKSM_kFVYdC/view?usp=drive_link)
 
 
+
+---
+
+
+## 👨‍💻 Author
+**Eshwar Ramesh**  
+Data Analyst | Big Data & Spark Enthusiast  
+📧 eshwarramesh1985@gmail.com 
+🌐 [https://github.com/yourusername](https://github.com/EshwarRamesh7)
+
+
+
