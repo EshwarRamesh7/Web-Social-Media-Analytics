@@ -1,5 +1,4 @@
-[tableau_reviews_with_dictionary.xlsx](https://github.com/user-attachments/files/23291829/tableau_reviews_with_dictionary.xlsx)# Web-Social-Media-Analytics
-Web &amp; Social Media Analytics project analyzing Amazon mobile phone reviews using Python and Power BI to extract sentiment insights, identify customer preferences, and guide data-driven marketing strategies.
+ Social Media Analytics project analyzing Amazon mobile phone reviews using Python and Power BI to extract sentiment insights, identify customer preferences, and guide data-driven marketing strategies.
 
 # 🌐 Web & Social Media Analytics — Amazon Reviews Sentiment Analysis
 
@@ -66,6 +65,6 @@ The dataset contains ~10,500 Amazon mobile reviews with metadata, including:
 
 [Capstone Web & Social Media Analytics (1) (1).pptx](https://github.com/user-attachments/files/23291852/Capstone.Web.Social.Media.Analytics.1.1.pptx)
 
-[Capstone Tableau] https://drive.google.com/file/d/19B3_Dt0gfyAI5eQikbnOdTKSM_kFVYdC/view?usp=drive_link
+[Capstone Tableau](https://drive.google.com/file/d/19B3_Dt0gfyAI5eQikbnOdTKSM_kFVYdC/view?usp=drive_link)
 
 
