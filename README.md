@@ -1,82 +1,44 @@
- Social Media Analytics project analyzing Amazon mobile phone reviews using Python and Power BI to extract sentiment insights, identify customer preferences, and guide data-driven marketing strategies.
+# Amazon Mobile Reviews — NLP & Sentiment Analytics
 
-# 🌐 Web & Social Media Analytics — Amazon Reviews Sentiment Analysis
+An analytics project using Amazon mobile-phone reviews to understand customer sentiment, product preferences and recurring themes in customer feedback.
 
-## 📄 Project Overview
-This project focuses on **web and social media analytics** for a US-based mobile manufacturing firm aiming to understand customer sentiment and market trends.  
-By analyzing Amazon mobile phone reviews, the project uncovers insights into **customer preferences, product performance, and brand perception**, supporting data-driven marketing and product strategy.
+**Tools:** Python · Pandas · NumPy · NLTK · scikit-learn · TF-IDF · Tableau · Power BI
 
----
+## Business question
 
-## 🎯 Objectives
-- Analyze customer sentiment and brand perception from Amazon reviews.  
-- Identify key product features (camera, battery, screen, performance) that drive satisfaction.  
-- Provide actionable insights for product design, marketing campaigns, and customer engagement.
+What do customers say about mobile products, which product features appear most often in reviews, and how can feedback be organised into useful product and marketing insights?
 
----
+## Dataset
 
-## 🧩 Dataset Description
-The dataset contains ~10,500 Amazon mobile reviews with metadata, including:
-- **Brand** – Product manufacturer (e.g., Samsung, Apple, BLU)  
-- **Price** – Product price range  
-- **Features** – Key specifications mentioned by users  
-- **Ratings & Reviews** – User feedback text and star ratings  
-- **Metadata** – Verified status, ranking, and timestamps  
+The project describes approximately 10,500 Amazon mobile reviews with brand and product information, prices, review text, star ratings, verified-purchase status, ranking and timestamps.
 
----
+## Workflow
 
-## ⚙️ Tools and Technologies
-- **Programming Language:** Python  
-- **Libraries Used:** pandas, numpy, nltk, sklearn, matplotlib, seaborn  
-- **Visualization Tools:** Power BI, Tableau  
-- **Techniques:** Sentiment Analysis, Text Preprocessing, NLP, TF-IDF, Naive Bayes Classification
+- Clean and preprocess review text.
+- Remove stop words and apply lemmatisation.
+- Convert text into numerical features using TF-IDF.
+- Apply a Multinomial Naive Bayes sentiment classifier.
+- Combine sentiment outputs with product metadata such as brand, price and ratings.
+- Explore sentiment and review themes using dashboard visualisations.
 
----
+## Findings recorded in the project
 
-## 🧹 Data Preparation
-- Cleaned and preprocessed text (removed stop words, lemmatized tokens).  
-- Transformed reviews into numerical vectors using **TF-IDF**.  
-- Performed sentiment classification using **Multinomial Naive Bayes** with ~85–87% accuracy.  
-- Merged metadata for richer insights into pricing, brand, and sentiment correlations.
+The original analysis reports approximately **75% positive sentiment** and identifies battery life, camera quality and performance as frequently discussed themes. It reports approximately **85–87% classifier accuracy**.
 
----
+Treat these figures as results from this project dataset, not as general measures of customer sentiment or model performance on other products. Consult the notebook and presentation for the exact train/test split and class definition.
 
-## 📊 Key Insights
-- **75% Positive Sentiment** across reviews shows strong trust in top brands.  
-- **Apple and Samsung** received consistently high average ratings (4–5 stars).  
-- **Battery life, camera quality, and performance** were the most discussed features.  
-- **Seasonal review peaks** observed during major festive sales and product launches.  
+## Repository contents
 
----
+- `Capstone_web&social final.ipynb` — analysis notebook.
+- `tableau_reviews_with_dictionary.xlsx` — review data and dictionary.
+- `Capstone_project tableau (1).twbx` — Tableau packaged workbook.
+- `Capstone Web & Social Media Analytics (1) (1).pptx` — presentation.
+- `docs/PROJECT_GUIDE_AND_INTERVIEW_QUESTIONS.md` — explanation and interview preparation.
 
-## 💡 Recommendations
-- Focus marketing campaigns around high-sentiment features (camera, battery).  
-- Leverage verified customer testimonials to enhance trust.  
-- Introduce real-time sentiment monitoring dashboards for proactive feedback management.  
-- Optimize product launches around observed seasonal demand peaks.
+## Interview preparation
 
----
+See [Project explanation and interview questions](docs/PROJECT_GUIDE_AND_INTERVIEW_QUESTIONS.md).
 
-## 📁 Project Structure
+## Author
 
-[tableau_reviews_with_dictionary.xlsx](https://github.com/user-attachments/files/23291802/tableau_reviews_with_dictionary.xlsx)
-
-[Capstone_web&social final.ipynb](https://github.com/user-attachments/files/23291844/Capstone_web.social.final.ipynb)
-
-[Capstone Web & Social Media Analytics (1) (1).pptx](https://github.com/user-attachments/files/23291852/Capstone.Web.Social.Media.Analytics.1.1.pptx)
-
-[Capstone Tableau](https://drive.google.com/file/d/19B3_Dt0gfyAI5eQikbnOdTKSM_kFVYdC/view?usp=drive_link)
-
-
-
----
-
-
-## 👨‍💻 Author
-**Eshwar Ramesh**  
-Data Analyst | Big Data & Spark Enthusiast  
-📧 eshwarramesh1985@gmail.com 
-🌐 [https://github.com/yourusername](https://github.com/EshwarRamesh7)
-
-
-
+**Eshwar Ramesh** · [GitHub](https://github.com/EshwarRamesh7) · [Portfolio](https://eshwarrameshportfolio.netlify.app) · [LinkedIn](https://www.linkedin.com/in/eshwar-ramesh-9a4652251)
