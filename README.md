@@ -33,11 +33,7 @@ Treat these figures as results from this project dataset, not as general measure
 - `tableau_reviews_with_dictionary.xlsx` — review data and dictionary.
 - `Capstone_project tableau (1).twbx` — Tableau packaged workbook.
 - `Capstone Web & Social Media Analytics (1) (1).pptx` — presentation.
-- `docs/PROJECT_GUIDE_AND_INTERVIEW_QUESTIONS.md` — explanation and interview preparation.
 
-## Interview preparation
-
-See [Project explanation and interview questions](docs/PROJECT_GUIDE_AND_INTERVIEW_QUESTIONS.md).
 
 ## Author
 
